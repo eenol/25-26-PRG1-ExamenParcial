@@ -192,4 +192,3 @@ public class Edificio {
 ```
 
 ¿Qué observas en este código?
-
