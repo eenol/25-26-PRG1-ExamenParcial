@@ -181,7 +181,7 @@ System.out.print("- P" + (PLANTA_MAXIMA + 1 - planta));
 
 ¿Qué observas en este código?
 
----
+----
 
 ## Pregunta 10
 
