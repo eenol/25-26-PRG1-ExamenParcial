@@ -33,6 +33,8 @@ class SimulacionHotel {
 ```
 
 ¿Qué observas en este código?
+
+
 En este código se puede apreciar como falta poner un public delante del "class SimulacionHotel" debido a que en Java hay una regla la cual dice que si el archivo tiene una clase con su mismo nombre esta debe ser pública, además el nombre de estas deben coincidir a la perfección y tan solo puede haber una por cada programa. No definir esto como public nos podría llevar a un error a la hora de ejecutar o puede ser que no compile; por tanto la manera de arreglar esto sería modificádolo la linea número cinco por: "public class SimulacionHotel {".
 ---
 
@@ -76,6 +78,8 @@ if (hayRayo && c == columnaRayo) {
 ```
 
 ¿Qué observas en este código?
+
+
 Este creo que es el error mas grande ya que también se trata de programación, el “rayo” ([X]) y el “mantenimiento” ([#]) pueden como colapsar entre ellos. Ya que si en una planta hay mantenimiento y en esa misma columna cae un rayo, solo se ejecutará la primera condición ([X]), y el mantenimiento no se hará. La solución es crear un nuevo programa que pueda abarcar ambos. Además, se usa "hora >= horaMantenimiento", que quiere decir que cuando pase la hora de mantenimiento, la planta quedará en mantenimiento hasta el final del día, habria que utilizar "==". Yo lo arreglaría de la siguiente forma:
 if (hayRayo && c == columnaRayo) {
     celda = "[X]";  // El rayo tiene prioridad máxima
@@ -101,6 +105,8 @@ System.out.println("Dia " + dia + " - " + hora + ":00  Consumo hora: " + consumo
 ```
 
 ¿Qué observas en este código?
+
+
 En este código observo como la estructura es correcta, usamos "System.out.println()" para imprimir un texto por pantalla y dentro de este casi todo esta bien; en esta linea del programa lo que tratamos de hacer es que una vez finalizado haga una recogida de datos, el problema de mi linea de código es que a la hora de decir el consumo por hora, se esta diciendo el consumo diario ya que habría que sustituir "consumoDia" por "consumoHora" una variable la cual habría que crear; es un error lógico y que no da error en el código pero no estaría siendo un programa realista, sería confuso.
 ---
 
@@ -113,6 +119,8 @@ System.out.println("Media semanal: " + (consumoTotalSemana / 7));
 ```
 
 ¿Qué observas en este código?
+
+
 En esta parte del código hay un problea grave, estamos dividiendo un entero entre otro(Int), el problema es que esta división va a realizar un redondeo hacia abajo, por lo que nuestro resultado no estaría siendo nada realista; la solución a esta linea del código es añadir un double para que así de esta forma nos pueda dar un número decimal y pueda ser mucho mas exacto, esta linea de código arreglada quedaría así: "System.out.println("Media semanal: " + ((double) consumoTotalSemana / 7));" de esta forma ya da igual que la division sea exacta o no, si no lo es habrá decimales.
 
 ---
@@ -139,6 +147,8 @@ boolean luzEncencida, persianaAbierta;
 ```
 
 ¿Qué observas en este código?
+
+
 En este código se observa como hay variables que no estan bien nombradas, en Java, los nombres de las variables deben coincidir exactamente, si en otra parte del código usamos "luzEncendida", el compilador mostrará un error como este: "cannot find symbol: variable luzEncendida", por lo que este código se solucionaría sustituyendo: "boolean luzEncencida, persianaAbierta;" por :"boolean luzEncendida, persianaAbierta;"
 ---
 
