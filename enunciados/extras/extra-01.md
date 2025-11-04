@@ -13,7 +13,7 @@ Para cada pregunta debes:
 2) Explicar si es o no un error y por qué
 3) Proponer la corrección
 
-Nota: Responde 5 de las 5 preguntas (elige libremente).
+Nota: Responde 5 de las 5 preguntas (en función a lo indicado en el examen).
 
 
 ---
@@ -90,14 +90,12 @@ class Edificio {
 
 ## Pregunta 5
 
-Archivo: `CalculadoraCambio.java` — [Ver archivo](https://github.com/mmasias/25-26-PRG1/blob/6fe0288c85b7cec67a50fecda28e783147b118ff/entregas/CalculadoraCambio.java) (Reto 001)
+Archivo: `Edificio.java` — [Ver archivo](https://github.com/mmasias/25-26-PRG1/blob/a4a32c7cefe2fbbb8310e3d8b6906a453b3ec346/entregas/PortillaAlejandro/reto-003/Edificio.java) (Reto 003)
 
 ```java
-int resto = vuelta % 100;
-int cociente = vuelta / 100;
-System.out.println(cociente + " billete(s) de 100 euros");
-// ... (se reusa cociente/resto)
-System.out.println(resto + " moneda(s) de 1 euros");
+for (int hora=0; hora<=24; hora++) {
+    // ...
+}
 ```
 
 ¿Qué observas en este código?

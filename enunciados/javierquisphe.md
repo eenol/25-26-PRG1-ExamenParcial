@@ -15,7 +15,7 @@ Para cada pregunta debes:
 2) Explicar si es o no un error y por qué
 3) Proponer la corrección
 
-Nota: Responde 5 de las 9 preguntas (elige libremente).
+Nota: Responde 5 de las 9 preguntas (en función a lo indicado en el examen).
 
 
 ---
